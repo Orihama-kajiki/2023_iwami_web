@@ -1,0 +1,212 @@
+.containar {
+  position: relative;
+  background-color: #2d197c;
+  height: 100vh;
+  width: 100vw;
+}
+
+.card {
+  position: absolute;
+  background-color: #FFF;
+  width: 50vw;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.card_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.title_user_name{
+  display: flex;
+  align-items: center;
+  font-size:16px;
+}
+
+.btn_logout {
+  text-align: left;
+  border: 2px solid #FF0000;
+  font-size: 12px;
+  color: #FF0000;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+.btn_logout:hover {
+  color: #FFF;
+  background-color: #FF0000;
+}
+
+.flex {
+  display: flex;
+}
+.between {
+  justify-content: space-between;
+}
+.mb_30 {
+  margin-bottom: 30px;
+}
+
+.select_tag,
+.tag_update {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.input_add {
+  width: 75%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  font-size: 14px;
+  outline: none;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+.btn_add {
+  text-align: left;
+  border: 2px solid #dc70fa;
+  font-size: 12px;
+  color: #dc70fa;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+.btn_add:hover {
+  color: #FFF;
+  background-color: #dc70fa;
+}
+
+.btn_search {
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  border: 2px solid #cdf119;
+  font-size: 12px;
+  color: #cdf119;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+  margin-bottom: 10px;
+}
+.btn_search:hover {
+  color: #FFF;
+  background-color: #cdf119;
+}
+
+.input_update {
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none;
+  font-size: 14px;
+  outline: none;
+}
+
+.btn_update {
+  text-align: left;
+  border: 2px solid #fa9770;
+  font-size: 12px;
+  color: #fa9770;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+.btn_update:hover {
+  color: #FFF;
+  background-color: #fa9770;
+}
+
+.btn_delete {
+  text-align: left;
+  border: 2px solid #71fadc;
+  font-size: 12px;
+  color: #71fadc;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+}
+.btn_delete:hover {
+  color: #FFF;
+  background-color:#71fadc;
+}
+
+.btn_back {
+  text-align: left;
+  border: 2px solid #6d7170;
+  font-size: 12px;
+  color: #6d7170;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+  outline: none;
+  text-decoration: none;
+}
+.btn_back:hover {
+  color: #FFF;
+  background-color: #6d7170;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: center;
+  width: 100%;
+}
+
+th {
+  display: table-cell;
+}
+
+tr {
+  height: 50px;
+  display: table-row;
+}
+
+td {
+  display: table-cell;
+}
+
