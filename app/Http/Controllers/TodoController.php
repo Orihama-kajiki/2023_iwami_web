@@ -14,8 +14,8 @@ class TodoController extends Controller
 {
     public function index()
     {
-        $todos = Todo::all();
         $user = Auth::user();
+        $todos = Todo::where('user_id', $user->id)->get();
         $tags = Tag::all();
 
         return view('index', compact('todos', 'user', 'tags'));
@@ -48,7 +48,6 @@ class TodoController extends Controller
     public function remove(Request $request)
     {
         Todo::find($request->id)->delete();
-
         return back()->withInput();
     }
 

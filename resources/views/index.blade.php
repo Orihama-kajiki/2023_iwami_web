@@ -71,9 +71,7 @@
                       <option value="{{ $tag->id }}">{{ $tag->name }}</option>
                     @endif
                   @endforeach
-                  @foreach ($todos as $todo)
-                    {{ $todo->tag->name }}
-                  @endforeach
+
                   </select>
                 </td>
                 <td><button type="submit" class="btn_update" value="{{$todo->id}}">更新</button></td>
